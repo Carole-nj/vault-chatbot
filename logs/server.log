@@ -1,0 +1,27 @@
+2026-10-16 10:19:12,415 INFO uvicorn.error: Started server process [3380]
+2026-10-16 10:19:12,417 INFO uvicorn.error: Waiting for application startup.
+2026-10-16 10:19:12,421 INFO uvicorn.error: Application startup complete.
+2026-10-16 10:19:12,423 INFO uvicorn.error: Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-10-16 10:20:47,297 INFO uvicorn.access: 127.0.0.1:52255 - "GET /docs. HTTP/1.1" 404
+2026-10-16 10:20:47,492 INFO uvicorn.access: 127.0.0.1:52255 - "GET /favicon.ico HTTP/1.1" 404
+2026-10-16 10:21:07,628 INFO uvicorn.access: 127.0.0.1:55396 - "GET /docs HTTP/1.1" 200
+2026-10-16 10:21:10,263 INFO uvicorn.access: 127.0.0.1:55396 - "GET /openapi.json HTTP/1.1" 200
+2026-10-16 10:23:22,434 INFO uvicorn.access: 127.0.0.1:57086 - "GET /widget/ HTTP/1.1" 200
+2026-10-16 10:23:22,505 INFO uvicorn.access: 127.0.0.1:57086 - "GET /widget/vault-chatbot.js HTTP/1.1" 200
+2026-10-16 10:23:22,560 INFO uvicorn.access: 127.0.0.1:57086 - "GET /favicon.ico HTTP/1.1" 404
+2026-10-16 10:23:29,522 INFO uvicorn.access: 127.0.0.1:64865 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:23:59,878 INFO uvicorn.access: 127.0.0.1:50164 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:24:22,052 INFO uvicorn.access: 127.0.0.1:58472 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:24:47,394 INFO uvicorn.access: 127.0.0.1:53889 - "GET /health HTTP/1.1" 200
+2026-10-16 10:26:00,697 INFO uvicorn.access: 127.0.0.1:61534 - "GET /widget/ HTTP/1.1" 200
+2026-10-16 10:26:00,865 INFO uvicorn.access: 127.0.0.1:61534 - "GET /widget/vault-chatbot.js HTTP/1.1" 200
+2026-10-16 10:26:13,255 INFO uvicorn.access: 127.0.0.1:50245 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:26:33,757 INFO uvicorn.access: 127.0.0.1:50284 - "GET /widget/ HTTP/1.1" 200
+2026-10-16 10:26:33,952 INFO uvicorn.access: 127.0.0.1:50284 - "GET /widget/vault-chatbot.js HTTP/1.1" 200
+2026-10-16 10:26:34,011 INFO uvicorn.access: 127.0.0.1:50284 - "GET /favicon.ico HTTP/1.1" 404
+2026-10-16 10:26:49,718 INFO uvicorn.access: 127.0.0.1:50288 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:27:09,641 INFO uvicorn.access: 127.0.0.1:50289 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:27:29,030 INFO uvicorn.access: 127.0.0.1:50294 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:27:42,141 INFO uvicorn.access: 127.0.0.1:50295 - "POST /chat HTTP/1.1" 200
+2026-10-16 10:31:26,976 INFO uvicorn.access: 127.0.0.1:54845 - "GET /widget/ HTTP/1.1" 200
+2026-10-16 10:31:27,037 INFO uvicorn.access: 127.0.0.1:54845 - "GET /widget/vault-chatbot.js HTTP/1.1" 200
