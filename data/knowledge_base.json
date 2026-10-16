@@ -1,0 +1,149 @@
+{
+  "_note": "Edit answers here (no code changes needed). Every entry marked status=draft must be verified by the Vault Electronics team before go-live. No prices, delivery times or warranty periods have been invented: add verified figures where indicated.",
+  "company": {
+    "name": "Vault Electronics",
+    "tagline": "Technology Solutions That Work",
+    "phone": "+254 762 139 352",
+    "website": "www.vaultelectronics.co.ke"
+  },
+  "intents": {
+    "greeting": {
+      "answer": "Hello! Welcome to Vault Electronics, Technology Solutions That Work. I can help with products, demos, installation, support and company information. What would you like to know?",
+      "status": "draft"
+    },
+    "goodbye": {
+      "answer": "Thank you for visiting Vault Electronics. Have a great day! Reach us on +254 762 139 352 any time.",
+      "status": "draft"
+    },
+    "thanks": {
+      "answer": "You're welcome! Is there anything else I can help you with?",
+      "status": "draft"
+    },
+    "about_company": {
+      "answer": "Vault Electronics is a Kenyan technology solutions provider established in 2009, with 17+ years of experience serving organisations across Kenya and the UAE. We specialise in AV solutions, smart classrooms, video conferencing, CCTV, digital signage, digital kiosks, digital podiums, structured cabling and system integration.",
+      "status": "draft"
+    },
+    "location": {
+      "answer": "We have offices in Nairobi (Karen Road) and Nanyuki, plus a presence in the UAE. Call +254 762 139 352 for directions or to arrange a visit.",
+      "status": "draft"
+    },
+    "contact": {
+      "answer": "You can reach our team on +254 762 139 352, or use the contact page on www.vaultelectronics.co.ke. Share your name and requirement and we will get back to you.",
+      "status": "draft"
+    },
+    "working_hours": {
+      "answer": "This assistant is available 24/7. Our team responds during business hours: call +254 762 139 352 and we will confirm the best time to reach someone. [ADD VERIFIED OFFICE HOURS]",
+      "status": "needs_verification"
+    },
+    "uae_presence": {
+      "answer": "Yes, Vault Electronics also serves clients in the UAE. Contact us on +254 762 139 352 and we will connect you with the right team.",
+      "status": "draft"
+    },
+    "clients": {
+      "answer": "We have worked with schools, corporations, churches, government agencies and institutions, including Peponi House, Durham International School and ILRI.",
+      "status": "draft"
+    },
+    "pricing": {
+      "answer": "Pricing depends on the product, size, brand and installation requirements. Tell us what you need (for example a 75\" interactive panel or a CCTV setup) and our team will send you a quote. Call +254 762 139 352. [ADD VERIFIED PRICE LISTS]",
+      "offer": "quote_request",
+      "offer_prompt": "Would you like to request a quote?",
+      "status": "needs_verification"
+    },
+    "demo_request": {
+      "answer": "We offer free demo setups so you can see our solutions in action. Tell us which product you want to see (interactive panels, video conferencing, smart classroom, etc.) and your location, or call +254 762 139 352 to arrange a demo.",
+      "status": "draft"
+    },
+    "consultation": {
+      "answer": "We are happy to provide a consultation to understand your space and needs and recommend the right solution. Call +254 762 139 352 or use the contact page to book one.",
+      "status": "draft"
+    },
+    "special_offers": {
+      "answer": "Our current offers are published on our website and LinkedIn page. For the latest deals, call +254 762 139 352. [ADD CURRENT OFFERS]",
+      "status": "needs_verification"
+    },
+    "interactive_flat_panels": {
+      "answer": "We supply Interactive Flat Panels in 65\", 75\" and 86\" sizes, ideal for classrooms and boardrooms. We handle supply, mounting and installation. [ADD VERIFIED MODELS AND SPECS]",
+      "offer": "pricing",
+      "offer_prompt": "Would you like pricing information?",
+      "status": "needs_verification"
+    },
+    "video_conferencing": {
+      "answer": "We design and install video conferencing systems for meeting rooms, boardrooms and classrooms, including cameras, microphones, speakers and displays. We can also arrange a free demo.",
+      "offer": "demo_request",
+      "offer_prompt": "Would you like to arrange a demo?",
+      "status": "draft"
+    },
+    "smart_classrooms": {
+      "answer": "Our smart classroom solutions combine interactive panels, audio, video conferencing and cabling, and we have worked with schools such as Peponi House and Durham International School. We serve schools in Nairobi, Nanyuki and beyond.",
+      "offer": "consultation",
+      "offer_prompt": "Would you like a consultation for your school?",
+      "status": "draft"
+    },
+    "digital_signage": {
+      "answer": "We supply and install digital signage displays and content solutions for offices, retail, schools, churches and public spaces.",
+      "offer": "quote_request",
+      "offer_prompt": "Would you like to request a quote?",
+      "status": "draft"
+    },
+    "cctv_security": {
+      "answer": "We design, supply and install CCTV and security systems for homes, businesses and institutions, with maintenance and after-sales support.",
+      "offer": "quote_request",
+      "offer_prompt": "Would you like to request a quote?",
+      "status": "draft"
+    },
+    "digital_kiosks": {
+      "answer": "We supply digital kiosks for information, self-service and wayfinding in offices, institutions and public spaces.",
+      "status": "draft"
+    },
+    "digital_podiums": {
+      "answer": "Our digital podiums (smart lecterns) integrate a display, audio and connectivity for lecture halls, boardrooms and auditoriums.",
+      "status": "draft"
+    },
+    "structured_cabling": {
+      "answer": "We provide AV integration and structured cabling so that your network and audio-visual systems are neatly installed, reliable and scalable.",
+      "status": "draft"
+    },
+    "smart_workspaces": {
+      "answer": "Our smart workspace solutions combine collaboration displays, video conferencing, wireless presentation and room integration for modern offices.",
+      "status": "draft"
+    },
+    "installation": {
+      "answer": "Our engineers handle professional installation, testing and handover. Installation time depends on the size and complexity of the project; share your requirements on +254 762 139 352 for an estimate. [ADD VERIFIED TIMELINES]",
+      "status": "needs_verification"
+    },
+    "maintenance_support": {
+      "answer": "We offer system maintenance and after-sales support. Call +254 762 139 352 with your location and the issue, and our support team will assist.",
+      "status": "draft"
+    },
+    "warranty": {
+      "answer": "Warranty terms depend on the product and brand. Our team will confirm the exact warranty on your quotation. [ADD VERIFIED WARRANTY TERMS]",
+      "status": "needs_verification"
+    },
+    "website_navigation": {
+      "answer": "You can browse our products and solutions on www.vaultelectronics.co.ke, request a quote or demo, and find our contact page there. Tell me what you're looking for and I'll point you to it.",
+      "status": "draft"
+    },
+    "quote_request": {
+      "answer": "To request a quote, send us the product, quantity, location and any special requirements via the contact page or call +254 762 139 352. Our sales team will respond with a quotation.",
+      "status": "draft"
+    },
+    "project_management": {
+      "answer": "We provide end-to-end project management, from site survey and design to installation, testing and handover, so you have a single point of contact.",
+      "status": "draft"
+    }
+  },
+  "faqs": [
+    {"q": "What does Vault Electronics do?", "a": "We provide AV solutions, smart classrooms, video conferencing, CCTV, digital signage, kiosks, podiums, structured cabling and system integration across Kenya and the UAE.", "intent": "about_company", "variants": ["what services do you offer", "what do you sell", "tell me about your products and services"]},
+    {"q": "Where are your offices?", "a": "We have offices in Nairobi (Karen Road) and Nanyuki, plus a presence in the UAE. Call +254 762 139 352 for directions.", "intent": "location", "variants": ["where is your office in Nairobi", "do you have an office in Nanyuki", "where can I find you"]},
+    {"q": "How long have you been in business?", "a": "Vault Electronics was established in 2009 and has 17+ years of experience.", "intent": "about_company", "variants": ["when was vault electronics founded", "how old is your company"]},
+    {"q": "Who are your clients?", "a": "Our clients include schools, corporations, churches and government agencies, such as Peponi House, Durham International School and ILRI.", "intent": "clients", "variants": ["do you have client references", "which schools have you worked with"]},
+    {"q": "What sizes of interactive flat panels do you have?", "a": "We supply Interactive Flat Panels in 65\", 75\" and 86\" sizes.", "intent": "interactive_flat_panels", "variants": ["do you have a 75 inch interactive panel", "do you sell 86 inch panels", "65 inch interactive display available"]},
+    {"q": "Do you offer free demos?", "a": "Yes, we offer free demo setups. Call +254 762 139 352 or tell us the product and your location to arrange one.", "intent": "demo_request", "variants": ["can I get a demo", "can I see the product before buying", "demo for video conferencing"]},
+    {"q": "Do you serve schools in Nanyuki?", "a": "Yes, we serve schools in Nairobi, Nanyuki and other areas with smart classroom solutions. Call +254 762 139 352 to discuss your school's needs.", "intent": "smart_classrooms", "variants": ["do you install in schools outside Nairobi", "smart classroom for a school in Nanyuki"]},
+    {"q": "Do you install CCTV systems?", "a": "Yes, we design, supply and install CCTV and security systems, with maintenance and support.", "intent": "cctv_security", "variants": ["can you install security cameras", "cctv installation for my business"]},
+    {"q": "Do you operate in the UAE?", "a": "Yes, Vault Electronics has a presence in the UAE. Contact us on +254 762 139 352 to be connected with the right team.", "intent": "uae_presence", "variants": ["are you in Dubai", "do you serve clients in UAE"]},
+    {"q": "Do you provide after-sales support?", "a": "Yes, we provide maintenance and after-sales support. Call +254 762 139 352 with your location and the issue.", "intent": "maintenance_support", "variants": ["who do I call when my system has a problem", "do you offer maintenance contracts"]},
+    {"q": "How can I request a quotation?", "a": "Send us the product, quantity, location and requirements through our contact page or call +254 762 139 352 and our sales team will send a quotation.", "intent": "quote_request", "variants": ["I need a quote", "how do I get a quotation"]},
+    {"q": "What is your phone number?", "a": "You can call us on +254 762 139 352.", "intent": "contact", "variants": ["how do I contact you", "give me your contact details", "your whatsapp number"]}
+  ]
+}

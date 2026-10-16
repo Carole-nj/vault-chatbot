@@ -1,0 +1,13 @@
+{
+  "host": "127.0.0.1",
+  "port": 8000,
+  "database": "data/chatbot.db",
+  "allowed_origins": ["https://www.vaultelectronics.co.ke", "https://vaultelectronics.co.ke", "http://localhost:8000", "http://127.0.0.1:8000"],
+  "public_url": "https://api.vaultelectronics.co.ke",
+  "ngrok_domain": "api.vaultelectronics.co.ke",
+  "admin_token": "CHANGE-ME-BEFORE-GO-LIVE",
+  "faq_threshold": 0.6,
+  "intent_threshold": 0.45,
+  "use_embeddings": false,
+  "embedding_model": "BAAI/bge-small-en-v1.5"
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vault Chatbot Demo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 48px 24px; color: #1b1f23; max-width: 720px; margin-inline: auto; }
+    code { background: #eef1f4; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Vault Electronics: chatbot demo page</h1>
+  <p>This page only exists to test the widget. Click the chat bubble at the bottom right.</p>
+  <p>To add the chatbot to the real website, paste this before <code>&lt;/body&gt;</code>:</p>
+  <pre><code>&lt;script src="https://api.vaultelectronics.co.ke/widget/vault-chatbot.js"
+        data-api="https://api.vaultelectronics.co.ke" defer&gt;&lt;/script&gt;</code></pre>
+  <!-- data-api is empty here, so the widget calls the same server that served this page -->
+  <script src="vault-chatbot.js" data-api="" defer></script>
+</body>
+</html>
