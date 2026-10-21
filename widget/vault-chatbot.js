@@ -140,7 +140,7 @@
         addFeedback(d.message_id);
       })
       .catch(function () {
-        addMsg("Sorry, I'm having trouble connecting right now. Please call us on +254 762 139 352.", "bot");
+        addMsg("Sorry, I'm having trouble connecting right now. Call us in Kenya on +254 763 502654 or in the UAE on +971 56 1353 249, or email info@vaultelectronics.co.ke or info@vaultelectronics.ae.", "bot");
       })
       .then(function () { typing.style.display = "none"; busy = false; send.disabled = false; input.focus(); });
   }
