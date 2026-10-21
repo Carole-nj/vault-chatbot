@@ -38,7 +38,20 @@ def test_core_intents():
 
 def test_fallback_has_phone():
     got = ask("qwerty zxcvb asdfgh")
-    assert got["source"] == "fallback" and "+254 762 139 352" in got["response"]
+    assert got["source"] == "fallback"
+    assert "+254 763 502654" in got["response"]
+    assert "+971 56 1353 249" in got["response"]
+    assert "info@vaultelectronics.co.ke" in got["response"]
+    assert "info@vaultelectronics.ae" in got["response"]
+
+
+def test_contact_answer_has_updated_details():
+    got = ask("what are your contact details")
+    assert got["intent"] == "contact"
+    assert "+254 763 502654" in got["response"]
+    assert "+971 56 1353 249" in got["response"]
+    assert "info@vaultelectronics.co.ke" in got["response"]
+    assert "info@vaultelectronics.ae" in got["response"]
 
 
 def test_followup_yes_accepts_offer():
