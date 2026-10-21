@@ -92,6 +92,9 @@ class ChatEngine:
         clean = preprocess(message)
         company = self.kb.get("company", {})
         phone = company.get("phone", "")
+        phone_uae = company.get("phone_uae", "")
+        email_kenya = company.get("email_kenya", "")
+        email_uae = company.get("email_uae", "")
 
         # conversational memory: "yes" accepts the previous offer
         if clean in YES and pending_offer and pending_offer in self.kb["intents"]:
@@ -120,7 +123,7 @@ class ChatEngine:
             return faq_reply()
 
         return {
-            "response": f"I'm sorry, I didn't fully understand your question. Could you rephrase it? Or contact us on {phone} for immediate assistance.",
+            "response": f"I'm sorry, I didn't fully understand your question. Could you rephrase it? Or contact us in Kenya on {phone} or in the UAE on {phone_uae}. Email {email_kenya} or {email_uae} for immediate assistance.",
             "intent": intent or "unknown", "confidence": round(conf, 3), "source": "fallback",
             "offer": None, "offer_prompt": None,
         }
