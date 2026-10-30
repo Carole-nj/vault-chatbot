@@ -71,4 +71,5 @@ def test_feedback_and_stats():
 
 def test_validation():
     assert client.post("/chat", json={"message": ""}).status_code == 422
+    assert client.post("/chat", json={"message": "   "}).status_code == 422
     assert client.post("/chat", json={"message": "x" * 501}).status_code == 422
