@@ -15,12 +15,15 @@
   var API = ((script && script.getAttribute("data-api")) || "").replace(/\/$/, "");
   var COLOR = (script && script.getAttribute("data-color")) || "#0b3d5c";
   var TITLE = (script && script.getAttribute("data-title")) || "Vault Electronics Assistant";
-  var CHIPS = ["Products", "Request a demo", "Pricing", "Contact us"];
+  var CHIPS = ["Products", "Request a demo", "Pricing", "Shipping", "Warranty", "Support", "Contact us"];
   var CHIP_QUERIES = {
     "Products": "What products do you offer?",
     "Request a demo": "I would like a demo",
     "Pricing": "What are your prices?",
-    "Contact us": "How can I contact you?"
+    "Shipping": "Do you offer delivery across Kenya and the UAE?",
+    "Warranty": "What warranty do your products come with?",
+    "Support": "Do you provide installation and after-sales support?",
+    "Contact us": "How can I contact your team?"
   };
 
   var sid = null;
