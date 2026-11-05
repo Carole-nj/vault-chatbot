@@ -6,7 +6,7 @@ FastAPI + scikit-learn (TF-IDF + Linear SVM) chatbot with an embeddable website 
 
 ```
 app/            FastAPI backend (main.py), NLP + layered logic (nlp.py), SQLite (db.py)
-data/           knowledge_base.json (staff-editable), training_data.csv (generated)
+data/           knowledge_base.json (active FAQs), training_data.csv (generated), vault_electronics_chatbot_faqs_source.md (review source; not loaded by the bot)
 scripts/        generate_training_data.py, train_model.py, check_knowledge_base.py
 models/         intent_model.joblib (created by training)
 reports/        metrics.json, confusion_matrix.csv (created by training)
