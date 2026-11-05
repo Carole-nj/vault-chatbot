@@ -147,3 +147,5 @@
 2026-11-05 16:27:42,762 INFO uvicorn.access: 127.0.0.1:62578 - "GET /docs HTTP/1.1" 200
 2026-11-05 16:27:50,304 INFO uvicorn.access: 127.0.0.1:62583 - "GET /docs HTTP/1.1" 200
 2026-11-05 16:27:57,415 INFO uvicorn.access: 127.0.0.1:54867 - "GET /widget/ HTTP/1.1" 200
+2026-11-05 16:28:09,072 INFO uvicorn.access: 127.0.0.1:59014 - "GET /widget/ HTTP/1.1" 304
+2026-11-05 16:28:09,177 INFO uvicorn.access: 127.0.0.1:59014 - "GET /widget/vault-chatbot.js HTTP/1.1" 304
